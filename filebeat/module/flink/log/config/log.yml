@@ -4,3 +4,9 @@ paths:
  - {{$path}}
 {{ end }}
 exclude_files: [".gz$"]
+multiline:
+  pattern: '^\['
+  negate: true
+  match: after
+processors:
+- add_locale: ~

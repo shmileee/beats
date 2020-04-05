@@ -1,0 +1,23 @@
+- name: log
+  type: group
+  description: >
+      Contains fields from Flink logs.
+  fields:
+  - name: class
+    description: >
+        Flink class
+    example: COMMAND
+    type: keyword
+  - name: thread
+    description: >
+        Flink thread
+    example: initandlisten
+    type: keyword
+  - name: severity
+    type: alias
+    path: flink.log.level
+    migration: true
+  - name: message
+    type: alias
+    path: message
+    migration: true

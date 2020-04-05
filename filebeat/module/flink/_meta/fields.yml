@@ -1,9 +1,10 @@
 - key: flink
   title: "flink"
   description: >
-    flink Module
+    Module for parsing Flink log files.
   fields:
     - name: flink
       type: group
       description: >
+          Fields from Flink logs.
       fields:
