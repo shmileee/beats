@@ -1,0 +1,3 @@
+dashboards:
+- id: Filebeat-flink-log-Dashboard
+  file: Filebeat-flink-log.json

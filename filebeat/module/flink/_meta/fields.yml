@@ -1,0 +1,9 @@
+- key: flink
+  title: "flink"
+  description: >
+    flink Module
+  fields:
+    - name: flink
+      type: group
+      description: >
+      fields:
